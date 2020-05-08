@@ -6,7 +6,7 @@ client = boto3.client(
     aws_access_key_id='AKIAIO5FOCMM7TESTING',
     aws_secret_access_key='ABCDEF+c2L7yXeGvUyrPgYsDnWRRC1AYEXAMPLE'
 )
------BEGIN RSA PRIVATE KEY-----
+
 MIIEpAIBAAKCAQEA2B33KL9fklrbBmmcD7LQ5aS+T6gPVS6ci5KPH/ZYxWNFRczR
 JBRM/lCkXnWH9VJYeaLS8Z/wFq1yBvqSn8RPx5iajEGcn+TQsO4fnlZccOTrJz5/
 qunWf/CE9IZx5f63F3KWAGRUPGqfa2hGzCAh4XCRpbLq6xvKgk5fXBMoSQt4lV6L

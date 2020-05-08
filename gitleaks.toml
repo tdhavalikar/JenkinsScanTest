@@ -50,6 +50,10 @@ title = "gitleaks config"
 	description = "Asymmetric Private Key"
 	regex = '''-----BEGIN ((EC|PGP|DSA|RSA|OPENSSH) )?PRIVATE KEY( BLOCK)?-----'''
 	tags = ["key", "AsymmetricPrivateKey"]
+	[[rules.whitelist]]
+		regex = '''-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA2B33KL9fklrbBmmcD7LQ5aS+T6gPVS6ci5KPH/ZYxWNFRczR?'''
+		description = "ignore key"
 
 [[rules]]
 	description = "Google API key"

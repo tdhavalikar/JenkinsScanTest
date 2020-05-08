@@ -1,7 +1,7 @@
 Testing
 client = boto3.client(
     's3',
-    # Hard coded strings as credentials, not recommended.
+    # Hard coded strings as credentials, not recommended jdhfjdhfjd.
     aws_access_key_id='AKIAIO5FODNN7TESTING',
     aws_access_key_id='AKIAIO5FODNN7TESTIED',
     aws_access_key_id='AKIAIO5FOCMM7TESTING',

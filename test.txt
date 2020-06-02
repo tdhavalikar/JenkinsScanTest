@@ -5,7 +5,7 @@ client = boto3.client(
     aws_access_key_id='AKIAIO5FODNN7TESTIAS',
     aws_access_key_id='AKIAIO5FODNN7TESTIED',
     
-    aws_secret_access_key='ABCDEF+c2L7yXeGvUyrPgYsDnWRRC1AYEXAMPLEjdfjdfnv'
+    
 )
 
 
